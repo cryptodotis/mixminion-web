@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<form action="" method="POST">
+    <div>
+        <h2>To:</h2>
+        <input type="text" name="to" id="to" />
+    </div>
+    <div>
+        <h2>Body</h2>
+        <textarea name="body" id="body"></textarea>
+    </div>
+    <div>
+        <input type="submit" name="submit" value="Send Email" />
+    </div>
+</form>
+{% end %}
+

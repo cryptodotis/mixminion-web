@@ -1,0 +1,95 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-repeat: repeat;
+	background-color: #F6F6F6;
+	border-top: 8px solid #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+a {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover {
+	color: #aaa;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+	color: #333;
+}
+h1 {
+	font-size: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 36px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 26px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 30px;
+}
+
+h4 {
+	font-size: 20px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 30px;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 16px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.clear_20 {
+	clear: both;
+	height: 20px;
+}
+
+.clear_40 {
+	clear: both;
+	height: 40px;
+}
+
+.border_clear {
+	clear: both;
+	border: 1px solid #555;
+}
+
+input[type="text"] {
+    width: 500px;
+}
+textarea {
+    width: 500px;
+    height: 300px;
+}
