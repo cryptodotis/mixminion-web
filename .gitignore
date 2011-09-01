@@ -1,0 +1,11 @@
+*.pyc
+*.swp
+server-setup/settings.py
+bin/
+include/
+lib/
+local
+share/
+build/
+.Python
+
